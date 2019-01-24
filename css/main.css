@@ -1,0 +1,25 @@
+  html {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    line-height: 1.5;
+  }
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+
+  body {
+    margin: 0;
+  }
+
+
+.img-flex {
+  display: flex;
+  width: 100%;
+}
+
+.btn {
+  background-color: #555;
+  padding: 0.5em 0.75em;
+  border-radius: 4px;
+}
