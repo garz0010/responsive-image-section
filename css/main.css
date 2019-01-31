@@ -5,15 +5,15 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-  box-sizing: border-box;
-  font-family: sans-serif;
-  background-color: #e2e2e2;
-  color: #000;
-
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -text-size-adjust: 100%;
+
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: #e2e2e2;
+  color: #000;
 }
 
 *, *::before, *::after {
