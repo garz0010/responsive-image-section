@@ -47,7 +47,7 @@ html {
     img {
       vertical-align: middle;
       display: inline-block;
-      min-width: 25em;
+      max-width: 25em;
     }
 
 }
@@ -61,7 +61,7 @@ html {
   p {
     text-align: left;
     display: inline-block;
-    min-width: 25em;
+    max-width: 25em;
     width: 100%;
   }
 
@@ -89,7 +89,7 @@ html {
   img {
     vertical-align: middle;
     display: inline-block;
-    min-width: 25em;
+    max-width: 25em;
   }
 
 
