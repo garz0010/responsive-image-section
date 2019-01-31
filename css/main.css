@@ -28,9 +28,6 @@ html {
   p {
     text-align: center;
   }
-  img {
-    vertical-align: middle;
-  }
 
 }
 
@@ -42,8 +39,16 @@ html {
   }
     p {
       text-align: left;
+      display: inline-block;
+      min-width: 25em;
+      width: 100%;
     }
 
+    img {
+      vertical-align: middle;
+      display: inline-block;
+      min-width: 25em;
+    }
 
 }
 
@@ -55,7 +60,17 @@ html {
   }
   p {
     text-align: left;
+    display: inline-block;
+    min-width: 25em;
+    width: 100%;
   }
+
+  img {
+    vertical-align: middle;
+    display: inline-block;
+    min-width: 25em;
+  }
+
 
 }
 
@@ -66,7 +81,17 @@ html {
   }
   p {
     text-align: left;
+    display: inline-block;
+    min-width: 25em;
+    width: 100%;
   }
+
+  img {
+    vertical-align: middle;
+    display: inline-block;
+    min-width: 25em;
+  }
+
 
 }
 
