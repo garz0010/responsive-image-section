@@ -1,6 +1,8 @@
 html {
   box-sizing: border-box;
   font-family: sans-serif;
+  background-color: #e2e2e2;
+  color: #000;
 }
 
 *, *::before, *::after {
@@ -48,7 +50,7 @@ html {
   }
 
 .img-flex {
-  display: flex;
+  display: inline-block;
   width: 100%;
 }
 
