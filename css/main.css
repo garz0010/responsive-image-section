@@ -12,12 +12,41 @@ html {
   text-size-adjust: 100%;
 
   font-family: sans-serif;
-  background-color: #e2e2e2;
+
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+}
+.img-flex {
+  display: block;
+  width: 100%;
+}
+section {
+  padding: 2rem 0;
+  background-color: #e2e2e2;
+}
+
+.content {
+  padding: 0 1rem 1rem;
+}
+a {
+  display: inline-block;
+  padding: .5em .75em;
+  background-color: red;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  background-color: #000;
+}
+
 
 @media only screen and (min-width: 25em) {
 
@@ -25,9 +54,11 @@ html {
     font-size: 100%;
     line-height: 1.3;
   }
-  p {
-    text-align: center;
+
+  section{
+    background-color: green;
   }
+
 
 }
 
@@ -36,39 +67,52 @@ html {
   html {
     font-size: 110%;
     line-height: 1.4;
+      font-family: serif;
   }
   p {
-    text-align: left;
-    display: inline-block;
-    min-width: 25em;
-    width: 100%;
+    margin-bottom: 1.4rem;
   }
 
-  img {
-    vertical-align: middle;
-    display: inline-block;
-    max-width: 25em;
+  section{
+    background-color: purple;
+    background-color: pink;
   }
+
 }
+
+.content {
+  display: inline-block;
+  max-width: 25em;
+  width: 48%;
+  padding-bottom: 0;
+
+}
+
+.photo {
+
+}
+
+
+}
+
 
 @media only screen and (min-width: 60em) {
 
   html {
     font-size: 120%;
     line-height: 1.5;
-  }
-  p {
-    text-align: left;
-    display: inline-block;
-    max-width: 25em;
-    width: 100%;
+
   }
 
-  img {
-    vertical-align: middle;
-    display: inline-block;
-    min-width: 25em;
+  h1,
+  p {
+    margin-bottom: 1.5rem;
   }
+
+  section {
+    background-color: yellow;
+  }
+
 
 }
 
@@ -77,36 +121,6 @@ html {
   html {
     font-size: 130%;
   }
-  p {
-    text-align: left;
-    display: inline-block;
-    min-width: 25em;
-    width: 100%;
-  }
 
-  img {
-    vertical-align: middle;
-    display: inline-block;
-    max-width: 25em;
-  }
 
-}
-
-body {
-margin: 0;
-  }
-
-.img-flex {
-  display: flex;
-  width: 100%;
-}
-
-.btn:hover {
-  background-color: #000;
-}
-
-a {
-  background-color: #555;
-  padding: .5em .75em;
-  border-radius: 4px;
-}
+  } */
